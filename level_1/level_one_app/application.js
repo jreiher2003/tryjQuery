@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('li').text('Orlando')
+	$("h1").text("Where to?");
 });
 	
 
