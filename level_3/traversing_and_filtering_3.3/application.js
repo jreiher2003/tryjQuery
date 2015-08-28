@@ -8,15 +8,15 @@ $(document).ready(function(){
 		$(this).remove();
 	});
 
-	$('#filters').on('click', '.onsale-filter', function(){
+	$('#filters .onsale-filter').on('click', 'button', function(){
 		// find all vacations that are on-sale
 		// add a class to these vacations
-		$('.highlighted').removeClass('.highlighted');
-		$('.vacation').filter('.onsale').addClass('.highlighted');
+		$('.highlighted').removeClass('highlighted');
+		$('#filters').filter('.onsale-filter').addClass('highlighted');
 	});
 
 	$('#filters').on('click', '.expiring-filter', function(){
-		$('.vacation').filter('.expiring').addClass('.highlighted');
+		$('.vacation').filter('.expiring').addClass('highlighted');
 	});
 });
 
