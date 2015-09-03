@@ -1,0 +1,19 @@
+.bar {
+	display: none;
+}
+
+.head, li{
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 1em;
+
+	font-size: 1.2em;
+	padding: .3em;
+	background-color: green;
+	color: yellow;
+
+}
+
+.head, li:last-of-type {
+	margin-right: 0;
+}
